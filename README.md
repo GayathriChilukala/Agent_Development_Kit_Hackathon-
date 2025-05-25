@@ -30,3 +30,29 @@ bq load \
 support_tickets.tickets_20k \
 gs://support-tickets-bucket/dataset-tickets-multi-lang-4-20k.csv
 ```
+
+
+#1. Data Ingestion and Storage
+Dataset: Utilize the Multilingual Customer Support Tickets Dataset.
+
+Storage: Upload the dataset to Google Cloud Storage (GCS).
+
+BigQuery: Import the data into BigQuery for structured querying and analysis.
+
+#2. Agent Development with ADK
+Framework: Use the Agent Development Kit (ADK) to define and orchestrate agents.
+
+Agent Communication: Implement inter-agent communication using ADK's built-in protocols.
+
+Deployment: Deploy agents using Cloud Run for scalability.
+Google GitHub
++1
+Google GitHub
++1
+
+#3. Integration with Google Cloud Services
+Vertex AI: Employ Vertex AI's language models for sentiment analysis and response generation.
+
+BigQuery: Query the knowledge base to fetch relevant information for responses.
+
+Cloud Functions: Trigger workflows based on events, such as the arrival of a new ticket.
