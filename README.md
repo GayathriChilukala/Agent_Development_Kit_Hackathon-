@@ -56,3 +56,16 @@ Vertex AI: Employ Vertex AI's language models for sentiment analysis and respons
 BigQuery: Query the knowledge base to fetch relevant information for responses.
 
 Cloud Functions: Trigger workflows based on events, such as the arrival of a new ticket.
+
+
+Key Features:
+
+Agent 1: Ticket Classifier – Categorizes incoming tickets (e.g., billing, technical support).
+
+Agent 2: Sentiment Analyzer – Assesses the sentiment of the customer's message.
+
+Agent 3: Knowledge Base Querier – Retrieves relevant information from a BigQuery-powered knowledge base.
+
+Agent 4: Response Generator – Crafts a personalized response using Vertex AI's language models.
+
+Agent 5: Escalation Manager – Determines if the ticket should be escalated to a human agent.
