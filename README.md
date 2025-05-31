@@ -69,3 +69,44 @@ Agent 3: Knowledge Base Querier – Retrieves relevant information from a BigQue
 Agent 4: Response Generator – Crafts a personalized response using Vertex AI's language models.
 
 Agent 5: Escalation Manager – Determines if the ticket should be escalated to a human agent.
+
+
+
+# 🧞‍♂️ SupportGenie - AI-Powered Customer Support System
+
+*Winner of Google Cloud Agent Development Kit Hackathon*
+
+## 🎯 Project Overview
+
+SupportGenie is an intelligent, multi-agent customer support system that automatically processes, analyzes, and responds to customer tickets with human-level quality and built-in escalation mechanisms.
+
+### Key Features
+- **9 Specialized AI Agents** working in concert
+- **Real-time Sentiment Analysis** with emotional intelligence  
+- **Predictive Escalation** using ML confidence scoring
+- **Multi-language Support** with cultural context awareness
+- **Dynamic Knowledge Graph** that learns from interactions
+- **Interactive Dashboard** for real-time monitoring
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Google Cloud Project with billing enabled
+- Python 3.9+
+- gcloud CLI installed and configured
+
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/your-username/supportgenie.git
+cd supportgenie
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run setup script
+chmod +x setup.sh
+./setup.sh
+
+# Start the demo
+streamlit run enhanced_support_system.py demo
