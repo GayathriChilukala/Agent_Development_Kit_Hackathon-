@@ -74,8 +74,6 @@ Agent 5: Escalation Manager – Determines if the ticket should be escalated to 
 
 # 🧞‍♂️ SupportGenie - AI-Powered Customer Support System
 
-*Winner of Google Cloud Agent Development Kit Hackathon*
-
 ## 🎯 Project Overview
 
 SupportGenie is an intelligent, multi-agent customer support system that automatically processes, analyzes, and responds to customer tickets with human-level quality and built-in escalation mechanisms.
